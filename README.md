@@ -906,7 +906,7 @@ template<class T, class Allocator=allocator<T>
 class vector {
 public:
 ...
-void push_back(T&& v);
+void push_back(T&& v); // v - не универсальная ссылка, как могло бы показаться
 ...
 };
 ```
