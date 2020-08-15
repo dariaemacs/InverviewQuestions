@@ -840,9 +840,9 @@ public:
 
 Foo foo(str);
 foo.copy_of_name();  // это выражение является prvalue, потому что возвращается объект
-                     // std::string, а не ссылка, (так же является rvalue)
+                     // std::string, а не ссылка, (также является rvalue)
 foo.original_name(); // это выражение является lvalue, потому что возвращает ссылку на
-		     // name (так же является glvalue)
+		     // name (также является glvalue)
 std::move(some_name) // это выражение является xvalue, так как вызвращает std::string&&
-		     // (так же оно одновременно и lvalue и rvalue).
+		     // (также оно одновременно и lvalue и rvalue).
 ```
