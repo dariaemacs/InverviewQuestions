@@ -1,0 +1,14 @@
+13
+BOOK 0 Ace1Hotel 3 4
+BOOK 1 The1Enchanted1Garden 1 4
+BOOK 1 Ace1Hotel 2 7
+BOOK 2 Ace1Hotel 1 2
+BOOK 86400 Wordly1Traveller1Hotel 3 8
+CLIENTS Ace1Hotel
+CLIENTS Walkabout1Beach1Hotel
+CLIENTS The1Enchanted1Garden
+CLIENTS Gotham1Hotel
+ROOMS Ace1Hotel
+ROOMS Walkabout1Beach1Hotel
+ROOMS The1Enchanted1Garden
+ROOMS Gotham1Hotel
